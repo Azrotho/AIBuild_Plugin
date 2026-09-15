@@ -1,0 +1,7 @@
+name: AiBuildPlugin
+version: '${version}'
+main: fr.azrotho.aibuildplugin.AiBuildPlugin
+api-version: '26.2'
+load: POSTWORLD
+description: A plugin to build with AI :D
+authors: [Azrotho]

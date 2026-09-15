@@ -1,0 +1,22 @@
+{
+  "name": "PaperMC 26.2 - Java 25",
+  "image": "mcr.microsoft.com/devcontainers/java:25",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "none",
+      "installGradle": true,
+      "gradleVersion": "9.7.1"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-gradle",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "postCreateCommand": "java -version && ./gradlew --version",
+  "remoteUser": "vscode"
+}
