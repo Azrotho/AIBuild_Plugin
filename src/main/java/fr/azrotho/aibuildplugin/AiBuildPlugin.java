@@ -19,6 +19,7 @@ public final class AiBuildPlugin extends JavaPlugin {
 
         ConfigUtility configUtility = new ConfigUtility();
         configUtility.saveDefaultConfigIfNotExists(this);
+        configUtility.reloadConfig(this);
 
         getLogger().info("AiBuildPlugin enabled");
 

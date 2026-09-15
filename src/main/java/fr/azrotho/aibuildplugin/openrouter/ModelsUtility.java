@@ -42,7 +42,8 @@ private static final Gson GSON = new Gson();
             return payload.data().stream()
                     .filter(m -> m.architecture() != null 
                               && m.architecture().modality() != null 
-                              && m.architecture().modality().endsWith("->text"))
+                              && m.architecture().modality().endsWith("->text")
+                              && !m.id.startsWith("~"))
                     .map(Model::id)
                     .sorted(String.CASE_INSENSITIVE_ORDER)
                     .toList();
