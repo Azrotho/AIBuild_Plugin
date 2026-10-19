@@ -4,6 +4,8 @@
 ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 ![PaperMC](https://img.shields.io/badge/PaperMC-428EDB.svg?style=for-the-badge&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-94A3B8.svg?style=for-the-badge&logo=openrouter&logoColor=white)
+![CI Status](https://img.shields.io/github/actions/workflow/status/Azrotho/AiBuild_Plugin/build.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=CI)
+![Codacy grade](https://img.shields.io/codacy/grade/fa8a9959b903468eb07455dc1285cad8?style=for-the-badge)
 
 J'ai une idée en tête laisser moi le temps de cook, ça va être rigolo
 
