@@ -5,3 +5,7 @@ api-version: '26.2'
 load: POSTWORLD
 description: A plugin to build with AI :D
 authors: [Azrotho]
+command:
+  debug:
+    description: Debug command for AI Build Plugin
+    usage: /debug <command>
