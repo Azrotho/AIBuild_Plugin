@@ -1,11 +1,7 @@
 name: AiBuildPlugin
 version: '${version}'
-main: fr.azrotho.aibuildplugin.AiBuildPlugin
+main: fr.azrotho.aibuildplugin.AIBuildPlugin
 api-version: '26.2'
 load: POSTWORLD
 description: A plugin to build with AI :D
 authors: [Azrotho]
-command:
-  debug:
-    description: Debug command for AI Build Plugin
-    usage: /debug <command>
